@@ -1,0 +1,41 @@
+#mainslider .carousel-item{
+	
+	/*max-height:500px;
+	*/
+}
+#mainslider img{
+	max-width: 100%;
+    height: 500px;
+	
+}
+#companyTitle  {
+	padding-top: 30px;
+}
+
+/*#companyTitle h1{
+	font-family: Monotype Corsiva;
+	color:black;
+
+}*/
+ 
+@media screen and (max-width: 600px){   /*its used to hide the company name when open in small window/mobile.... */
+										
+	.mt-0{
+		display: none;			/*	Hide an element when the browser's width is 600px wide or less:   */
+	}
+	
+}
+h5{
+	font-weight: bold;
+}
+#subheading{
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+div .col{
+	padding-top: 10px
+
+}
